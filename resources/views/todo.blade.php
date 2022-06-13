@@ -22,10 +22,10 @@
     </tr>
   </thead>
   <tbody>
-      @php $i =0 @endphp
+      @php $i =1 @endphp
       @foreach($todolist as $todo)
     <tr>
-      <th scope="row">{{$i+1}}1</th>
+      <th scope="row">{{$i++}}</th>
       <td>{{$todo->name}}</td>
       <td>time unavailable</td>
       <td>{{$todo->date}}</td>
